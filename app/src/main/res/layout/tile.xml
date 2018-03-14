@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="8dp"
-    android:layout_marginEnd="8dp"
-    android:orientation="vertical">
-
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    >
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mrl_rippleOverlay="true">
     <com.example.lenovo.cardviewtest.grid_with_tiles.SquareImageView
         android:id="@+id/image_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scaleType="center" />
-
+    </com.balysv.materialripple.MaterialRippleLayout>
     <RelativeLayout
         android:id="@+id/content_panel"
         android:layout_width="match_parent"
@@ -22,7 +28,7 @@
             android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:text="Title of tile"
             android:textColor="#fff"
@@ -40,9 +46,7 @@
             android:id="@+id/favorite_image_view"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
             android:src="@drawable/ic_favorite_border_white_24dp" />
-
     </RelativeLayout>
-
 </LinearLayout>
