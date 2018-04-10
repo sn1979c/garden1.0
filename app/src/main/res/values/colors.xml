@@ -6,4 +6,9 @@
     <color name="colorAccent">#ff5722</color>
     <color name="textColorPrimary">#f1f8e9</color>
     <color name="navigationBarColor">#ffffff</color>
+
+    <color name="colorPrimaryTrans">#64d95082</color>
+    <color name="colorAccentTrans">#64009688</color>
+    <color name="colorBlackTrans">#a0000000</color>
+
 </resources>

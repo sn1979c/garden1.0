@@ -11,13 +11,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        >
 
         <com.balysv.materialripple.MaterialRippleLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:mrl_rippleOverlay="true">
-        <com.example.lenovo.cardviewtest.SixteenNineImageView
+        <com.example.lenovo.garden.SixteenNineImageView
             android:id="@+id/big_image_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
